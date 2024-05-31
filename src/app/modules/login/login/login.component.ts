@@ -1,14 +1,11 @@
-import { animate } from '@angular/animations';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrl: './login.component.css'
 })
-export class AppComponent {
-  title = 'trello-2024';
-
+export class LoginComponent {
   activeSignIn():void {
     const wrapper= document.querySelector ('.wrapper');
     if (wrapper) {
