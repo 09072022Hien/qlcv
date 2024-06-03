@@ -279,7 +279,7 @@ button {
 }
 
 .bg-animate.active {
-    transform: 1.2s ease-out;
+    transition: 1.2s ease-out;
     clip-path: circle(98% at 0 0);
 }
 
@@ -312,3 +312,7 @@ button {
    transform: scale(1.5);
 }
 
+.colors .color.active {
+    border: 2px solid #fff;
+    transform: scale(1.5);
+}
