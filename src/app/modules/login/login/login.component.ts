@@ -26,10 +26,11 @@ export class LoginComponent {
     bgAnimate.style.background = color;
     bgAnimate.classList.add('active');
     
-  setTimeout(() => {
+    setTimeout(()=>{
       bgAnimate.classList.remove('active');
     }, 1200); 
   }
 }
+  
 }
 
